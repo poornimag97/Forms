@@ -26,9 +26,59 @@
 //     )
 //     }
 //   }
-import React from 'react'
-import Forms2 from './Forms2';
+
+
+
+
+
+//Class Based Component
+
+//Props drilling
+
+// import React, { Component } from 'react'
+// import Parent from './Parent';
+
+// export default class App extends Component {
+//   render() {
+//     return (
+//       <Parent data={100}/>
+//     )
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from 'react'
+// import Forms2 from './Forms2';
 // import Forms1 from './Forms1';
+ //  import Forms3 from './Forms3';
+
 // import Forms from './Forms';
 // import Refs4 from './Refs4';
 // import Refs3 from './Refs3';
@@ -42,12 +92,14 @@ import Forms2 from './Forms2';
 // import Refs1 from './Refs1';
 // import Refs from './Refs';
 // import Refs5 from './Refs5';
- 
+// import Forms4 from './Forms4';
+import Forms5 from './Forms5';
 
 
 
-    const App = () => {
-  return (
+
+     const App = () => {
+      return (
           //  <Refs/>
           //  <Refs1 />
           //  <CounterApp />
@@ -59,8 +111,26 @@ import Forms2 from './Forms2';
           //  <Refs5 />
           //  <Forms />
           //  <Forms1 />
-              <Forms2 />
-      )
-}
+          //  <Forms2 />
+          //  <Forms3 />
+          //  <Forms4 />
+          <Forms5 />
+       )
+ }
 
-export default App;
+ export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
